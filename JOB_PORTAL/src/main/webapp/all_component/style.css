@@ -1,0 +1,40 @@
+.bg-custom{
+	background:#283593 !important;
+	/* #8e24aa; #aa00ff*/
+}
+.navbar .nav-item .nav-link{
+	font-size: 20px;
+	color:white;
+}
+.navbar .nav-item:hover .nav-link{
+	background:white;
+	color: black;
+	border-radius: 10px;
+}
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #f9a825 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/job-bg.jpg') no-repeat center center/cover;
+    height: 80vh;
+}
